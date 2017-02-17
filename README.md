@@ -1,4 +1,4 @@
-Seeker is a lightweight C# tool aimed to interact with Microsoft Active Directory objects.
+<b>Seeker is a lightweight C# tool aimed to interact with Microsoft Active Directory objects.</b>
 
 WARNING
 
@@ -14,4 +14,4 @@ Feel free to ask questions and send me your feedback on munhozdiego@gmail.com
 
 DOWNLOAD
 
-Nightly build: https://github.com/munhozdiego/seeker/raw/master/Seeker/Seeker/bin/Release/Seeker.exe
+Nightly build: https://github.com/munhozdiego/Seeker/blob/master/bin/Release/Seeker.exe
