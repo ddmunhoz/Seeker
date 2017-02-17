@@ -511,7 +511,7 @@ namespace dLibAdJobs
         }
 
 
-        // User Principal Extensions to Get Private Properties
+        //User Principal Extensions to Get Private Properties
         [DirectoryRdnPrefix("CN")]
         [DirectoryObjectClass("user")]
         public class UserPrincipalExtended : UserPrincipal
