@@ -1,0 +1,96 @@
+\\tsclient\X\Development\C#\Winforms\Prod\Seeker\Seeker\bin\Debug\Seeker.exe.config
+\\tsclient\X\Development\C#\Winforms\Prod\Seeker\Seeker\obj\Debug\Seeker.exe
+\\tsclient\X\Development\C#\Winforms\Prod\Seeker\Seeker\obj\Debug\Seeker.pdb
+\\tsclient\X\Development\C#\Winforms\Prod\Seeker\Seeker\bin\Debug\Seeker.exe.manifest
+\\tsclient\X\Development\C#\Winforms\Prod\Seeker\Seeker\bin\Debug\Seeker.application
+\\tsclient\X\Development\C#\Winforms\Prod\Seeker\Seeker\bin\Debug\Seeker.exe
+\\tsclient\X\Development\C#\Winforms\Prod\Seeker\Seeker\bin\Debug\Seeker.pdb
+\\tsclient\X\Development\C#\Winforms\Prod\Seeker\Seeker\obj\Debug\Seeker.csprojResolveAssemblyReference.cache
+\\tsclient\X\Development\C#\Winforms\Prod\Seeker\Seeker\obj\Debug\Seeker.frmCreateUserDialog.resources
+\\tsclient\X\Development\C#\Winforms\Prod\Seeker\Seeker\obj\Debug\Seeker.frmInputDialog.resources
+\\tsclient\X\Development\C#\Winforms\Prod\Seeker\Seeker\obj\Debug\Seeker.frmSearchDialog.resources
+\\tsclient\X\Development\C#\Winforms\Prod\Seeker\Seeker\obj\Debug\Seeker.frmSessionManager.resources
+\\tsclient\X\Development\C#\Winforms\Prod\Seeker\Seeker\obj\Debug\Seeker.frmMain.resources
+\\tsclient\X\Development\C#\Winforms\Prod\Seeker\Seeker\obj\Debug\Seeker.frmAbout.resources
+\\tsclient\X\Development\C#\Winforms\Prod\Seeker\Seeker\obj\Debug\Seeker.frmLogin.resources
+\\tsclient\X\Development\C#\Winforms\Prod\Seeker\Seeker\obj\Debug\Seeker.frmSeek.resources
+\\tsclient\X\Development\C#\Winforms\Prod\Seeker\Seeker\obj\Debug\Seeker.Properties.Resources.resources
+\\tsclient\X\Development\C#\Winforms\Prod\Seeker\Seeker\obj\Debug\Seeker.frmSeekComputer.resources
+\\tsclient\X\Development\C#\Winforms\Prod\Seeker\Seeker\obj\Debug\Seeker.frmSeekGroup.resources
+\\tsclient\X\Development\C#\Winforms\Prod\Seeker\Seeker\obj\Debug\Seeker.frmSeekItAll.resources
+\\tsclient\X\Development\C#\Winforms\Prod\Seeker\Seeker\obj\Debug\Seeker.frmSeekOu.resources
+\\tsclient\X\Development\C#\Winforms\Prod\Seeker\Seeker\obj\Debug\Seeker.csproj.GenerateResource.Cache
+\\tsclient\X\Development\C#\Winforms\Prod\Seeker\Seeker\obj\Debug\Seeker.exe.manifest
+\\tsclient\X\Development\C#\Winforms\Prod\Seeker\Seeker\obj\Debug\Seeker.application
+X:\Development\C#\Winforms\Prod\Seeker\Seeker\bin\Debug\Seeker.exe.config
+X:\Development\C#\Winforms\Prod\Seeker\Seeker\bin\Debug\Seeker.exe.manifest
+X:\Development\C#\Winforms\Prod\Seeker\Seeker\bin\Debug\Seeker.application
+X:\Development\C#\Winforms\Prod\Seeker\Seeker\bin\Debug\Seeker.exe
+X:\Development\C#\Winforms\Prod\Seeker\Seeker\bin\Debug\Seeker.pdb
+X:\Development\C#\Winforms\Prod\Seeker\Seeker\obj\Debug\Seeker.csprojResolveAssemblyReference.cache
+X:\Development\C#\Winforms\Prod\Seeker\Seeker\obj\Debug\Seeker.frmCreateUserDialog.resources
+X:\Development\C#\Winforms\Prod\Seeker\Seeker\obj\Debug\Seeker.frmInputDialog.resources
+X:\Development\C#\Winforms\Prod\Seeker\Seeker\obj\Debug\Seeker.frmSearchDialog.resources
+X:\Development\C#\Winforms\Prod\Seeker\Seeker\obj\Debug\Seeker.frmSessionManager.resources
+X:\Development\C#\Winforms\Prod\Seeker\Seeker\obj\Debug\Seeker.frmMain.resources
+X:\Development\C#\Winforms\Prod\Seeker\Seeker\obj\Debug\Seeker.frmAbout.resources
+X:\Development\C#\Winforms\Prod\Seeker\Seeker\obj\Debug\Seeker.frmLogin.resources
+X:\Development\C#\Winforms\Prod\Seeker\Seeker\obj\Debug\Seeker.frmSeek.resources
+X:\Development\C#\Winforms\Prod\Seeker\Seeker\obj\Debug\Seeker.Properties.Resources.resources
+X:\Development\C#\Winforms\Prod\Seeker\Seeker\obj\Debug\Seeker.frmSeekComputer.resources
+X:\Development\C#\Winforms\Prod\Seeker\Seeker\obj\Debug\Seeker.frmSeekGroup.resources
+X:\Development\C#\Winforms\Prod\Seeker\Seeker\obj\Debug\Seeker.frmSeekItAll.resources
+X:\Development\C#\Winforms\Prod\Seeker\Seeker\obj\Debug\Seeker.frmSeekOu.resources
+X:\Development\C#\Winforms\Prod\Seeker\Seeker\obj\Debug\Seeker.csproj.GenerateResource.Cache
+X:\Development\C#\Winforms\Prod\Seeker\Seeker\obj\Debug\Seeker.exe.manifest
+X:\Development\C#\Winforms\Prod\Seeker\Seeker\obj\Debug\Seeker.application
+X:\Development\C#\Winforms\Prod\Seeker\Seeker\obj\Debug\Seeker.exe
+X:\Development\C#\Winforms\Prod\Seeker\Seeker\obj\Debug\Seeker.pdb
+E:\Documents\GoogleDrive\Docs\Work\Work-SD\Development\C#\Winforms\Prod\Seeker\Seeker\bin\Debug\Seeker.exe.config
+E:\Documents\GoogleDrive\Docs\Work\Work-SD\Development\C#\Winforms\Prod\Seeker\Seeker\bin\Debug\Seeker.exe.manifest
+E:\Documents\GoogleDrive\Docs\Work\Work-SD\Development\C#\Winforms\Prod\Seeker\Seeker\bin\Debug\Seeker.application
+E:\Documents\GoogleDrive\Docs\Work\Work-SD\Development\C#\Winforms\Prod\Seeker\Seeker\bin\Debug\Seeker.exe
+E:\Documents\GoogleDrive\Docs\Work\Work-SD\Development\C#\Winforms\Prod\Seeker\Seeker\bin\Debug\Seeker.pdb
+E:\Documents\GoogleDrive\Docs\Work\Work-SD\Development\C#\Winforms\Prod\Seeker\Seeker\obj\Debug\Seeker.csprojResolveAssemblyReference.cache
+E:\Documents\GoogleDrive\Docs\Work\Work-SD\Development\C#\Winforms\Prod\Seeker\Seeker\obj\Debug\Seeker.frmCreateUserDialog.resources
+E:\Documents\GoogleDrive\Docs\Work\Work-SD\Development\C#\Winforms\Prod\Seeker\Seeker\obj\Debug\Seeker.frmInputDialog.resources
+E:\Documents\GoogleDrive\Docs\Work\Work-SD\Development\C#\Winforms\Prod\Seeker\Seeker\obj\Debug\Seeker.frmSearchDialog.resources
+E:\Documents\GoogleDrive\Docs\Work\Work-SD\Development\C#\Winforms\Prod\Seeker\Seeker\obj\Debug\Seeker.frmSessionManager.resources
+E:\Documents\GoogleDrive\Docs\Work\Work-SD\Development\C#\Winforms\Prod\Seeker\Seeker\obj\Debug\Seeker.frmMain.resources
+E:\Documents\GoogleDrive\Docs\Work\Work-SD\Development\C#\Winforms\Prod\Seeker\Seeker\obj\Debug\Seeker.frmAbout.resources
+E:\Documents\GoogleDrive\Docs\Work\Work-SD\Development\C#\Winforms\Prod\Seeker\Seeker\obj\Debug\Seeker.frmLogin.resources
+E:\Documents\GoogleDrive\Docs\Work\Work-SD\Development\C#\Winforms\Prod\Seeker\Seeker\obj\Debug\Seeker.frmSeek.resources
+E:\Documents\GoogleDrive\Docs\Work\Work-SD\Development\C#\Winforms\Prod\Seeker\Seeker\obj\Debug\Seeker.Properties.Resources.resources
+E:\Documents\GoogleDrive\Docs\Work\Work-SD\Development\C#\Winforms\Prod\Seeker\Seeker\obj\Debug\Seeker.frmSeekComputer.resources
+E:\Documents\GoogleDrive\Docs\Work\Work-SD\Development\C#\Winforms\Prod\Seeker\Seeker\obj\Debug\Seeker.frmSeekGroup.resources
+E:\Documents\GoogleDrive\Docs\Work\Work-SD\Development\C#\Winforms\Prod\Seeker\Seeker\obj\Debug\Seeker.frmSeekItAll.resources
+E:\Documents\GoogleDrive\Docs\Work\Work-SD\Development\C#\Winforms\Prod\Seeker\Seeker\obj\Debug\Seeker.frmSeekOu.resources
+E:\Documents\GoogleDrive\Docs\Work\Work-SD\Development\C#\Winforms\Prod\Seeker\Seeker\obj\Debug\Seeker.csproj.GenerateResource.Cache
+E:\Documents\GoogleDrive\Docs\Work\Work-SD\Development\C#\Winforms\Prod\Seeker\Seeker\obj\Debug\Seeker.exe.manifest
+E:\Documents\GoogleDrive\Docs\Work\Work-SD\Development\C#\Winforms\Prod\Seeker\Seeker\obj\Debug\Seeker.application
+E:\Documents\GoogleDrive\Docs\Work\Work-SD\Development\C#\Winforms\Prod\Seeker\Seeker\obj\Debug\Seeker.exe
+E:\Documents\GoogleDrive\Docs\Work\Work-SD\Development\C#\Winforms\Prod\Seeker\Seeker\obj\Debug\Seeker.pdb
+E:\Documents\GoogleDrive\Docs\Work\Projects [X]\Programming\GitStorage\seeker\Seeker\Seeker\bin\Debug\Seeker.exe.config
+E:\Documents\GoogleDrive\Docs\Work\Projects [X]\Programming\GitStorage\seeker\Seeker\Seeker\bin\Debug\Seeker.exe.manifest
+E:\Documents\GoogleDrive\Docs\Work\Projects [X]\Programming\GitStorage\seeker\Seeker\Seeker\bin\Debug\Seeker.application
+E:\Documents\GoogleDrive\Docs\Work\Projects [X]\Programming\GitStorage\seeker\Seeker\Seeker\bin\Debug\Seeker.exe
+E:\Documents\GoogleDrive\Docs\Work\Projects [X]\Programming\GitStorage\seeker\Seeker\Seeker\bin\Debug\Seeker.pdb
+E:\Documents\GoogleDrive\Docs\Work\Projects [X]\Programming\GitStorage\seeker\Seeker\Seeker\obj\Debug\Seeker.csprojResolveAssemblyReference.cache
+E:\Documents\GoogleDrive\Docs\Work\Projects [X]\Programming\GitStorage\seeker\Seeker\Seeker\obj\Debug\Seeker.frmCreateUserDialog.resources
+E:\Documents\GoogleDrive\Docs\Work\Projects [X]\Programming\GitStorage\seeker\Seeker\Seeker\obj\Debug\Seeker.frmInputDialog.resources
+E:\Documents\GoogleDrive\Docs\Work\Projects [X]\Programming\GitStorage\seeker\Seeker\Seeker\obj\Debug\Seeker.frmSearchDialog.resources
+E:\Documents\GoogleDrive\Docs\Work\Projects [X]\Programming\GitStorage\seeker\Seeker\Seeker\obj\Debug\Seeker.frmSessionManager.resources
+E:\Documents\GoogleDrive\Docs\Work\Projects [X]\Programming\GitStorage\seeker\Seeker\Seeker\obj\Debug\Seeker.frmMain.resources
+E:\Documents\GoogleDrive\Docs\Work\Projects [X]\Programming\GitStorage\seeker\Seeker\Seeker\obj\Debug\Seeker.frmAbout.resources
+E:\Documents\GoogleDrive\Docs\Work\Projects [X]\Programming\GitStorage\seeker\Seeker\Seeker\obj\Debug\Seeker.frmLogin.resources
+E:\Documents\GoogleDrive\Docs\Work\Projects [X]\Programming\GitStorage\seeker\Seeker\Seeker\obj\Debug\Seeker.frmSeek.resources
+E:\Documents\GoogleDrive\Docs\Work\Projects [X]\Programming\GitStorage\seeker\Seeker\Seeker\obj\Debug\Seeker.Properties.Resources.resources
+E:\Documents\GoogleDrive\Docs\Work\Projects [X]\Programming\GitStorage\seeker\Seeker\Seeker\obj\Debug\Seeker.frmSeekComputer.resources
+E:\Documents\GoogleDrive\Docs\Work\Projects [X]\Programming\GitStorage\seeker\Seeker\Seeker\obj\Debug\Seeker.frmSeekGroup.resources
+E:\Documents\GoogleDrive\Docs\Work\Projects [X]\Programming\GitStorage\seeker\Seeker\Seeker\obj\Debug\Seeker.frmSeekItAll.resources
+E:\Documents\GoogleDrive\Docs\Work\Projects [X]\Programming\GitStorage\seeker\Seeker\Seeker\obj\Debug\Seeker.frmSeekOu.resources
+E:\Documents\GoogleDrive\Docs\Work\Projects [X]\Programming\GitStorage\seeker\Seeker\Seeker\obj\Debug\Seeker.csproj.GenerateResource.Cache
+E:\Documents\GoogleDrive\Docs\Work\Projects [X]\Programming\GitStorage\seeker\Seeker\Seeker\obj\Debug\Seeker.exe.manifest
+E:\Documents\GoogleDrive\Docs\Work\Projects [X]\Programming\GitStorage\seeker\Seeker\Seeker\obj\Debug\Seeker.application
+E:\Documents\GoogleDrive\Docs\Work\Projects [X]\Programming\GitStorage\seeker\Seeker\Seeker\obj\Debug\Seeker.exe
+E:\Documents\GoogleDrive\Docs\Work\Projects [X]\Programming\GitStorage\seeker\Seeker\Seeker\obj\Debug\Seeker.pdb

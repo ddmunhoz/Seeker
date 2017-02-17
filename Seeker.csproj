@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CE8CFB1B-471B-4F13-9288-A61B9E4D2C3D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Seeker</RootNamespace>
+    <AssemblyName>Seeker</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <PublisherName>Diego Munhóz</PublisherName>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>2.4.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>0</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>main.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>50D541DB7EABAD03A42D6A29539CF970B57E8CDB</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Seeker_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Def|AnyCPU'">
+    <OutputPath>bin\Def\</OutputPath>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Interop.ActiveDs">
+      <HintPath>Library\Interop.ActiveDs.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.DirectoryServices.AccountManagement" />
+    <Reference Include="System.DirectoryServices.Protocols" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Dialogs\frmCreateUserDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\frmCreateUserDialog.Designer.cs">
+      <DependentUpon>frmCreateUserDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\frmInputDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\frmInputDialog.Designer.cs">
+      <DependentUpon>frmInputDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\frmSearchDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\frmSearchDialog.Designer.cs">
+      <DependentUpon>frmSearchDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\frmSessionManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\frmSessionManager.Designer.cs">
+      <DependentUpon>frmSessionManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Library\ADLib.cs" />
+    <Compile Include="Library\dLibBufferedListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Library\dLibBufferedTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Library\dLibCopyToClipboard.cs" />
+    <Compile Include="Library\dLibObjSerializer.cs" />
+    <Compile Include="Library\dLibSeekerSessions.cs" />
+    <Compile Include="Library\dLibSystemOps.cs" />
+    <Compile Include="Library\dLibWaterMarkTxtBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Library\generalExtensions.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\frmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\frmAbout.Designer.cs">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\frmSeek.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\frmSeek.Designer.cs">
+      <DependentUpon>frmSeek.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Library\dLibAd.cs" />
+    <Compile Include="Library\dLibCypher.cs" />
+    <Compile Include="Library\dLibProcess.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tools\frmSeekComputer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\frmSeekComputer.Designer.cs">
+      <DependentUpon>frmSeekComputer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\frmSeekGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\frmSeekGroup.Designer.cs">
+      <DependentUpon>frmSeekGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\frmSeekItAll.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\frmSeekItAll.Designer.cs">
+      <DependentUpon>frmSeekItAll.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\frmSeekOu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\frmSeekOu.Designer.cs">
+      <DependentUpon>frmSeekOu.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Dialogs\frmCreateUserDialog.resx">
+      <DependentUpon>frmCreateUserDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\frmInputDialog.resx">
+      <DependentUpon>frmInputDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\frmSearchDialog.resx">
+      <DependentUpon>frmSearchDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\frmSessionManager.resx">
+      <DependentUpon>frmSessionManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\frmAbout.resx">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\frmSeek.resx">
+      <DependentUpon>frmSeek.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\frmSeekComputer.resx">
+      <DependentUpon>frmSeekComputer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\frmSeekGroup.resx">
+      <DependentUpon>frmSeekGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\frmSeekItAll.resx">
+      <DependentUpon>frmSeekItAll.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\frmSeekOu.resx">
+      <DependentUpon>frmSeekOu.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\066.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="main.ico" />
+    <None Include="Resources\collectObject24.png" />
+    <None Include="Resources\seekerReport.png" />
+    <None Include="Resources\sessionClearAll.png" />
+    <None Include="Resources\spinningWeel16.gif" />
+    <None Include="Resources\sessionManager32.png" />
+    <None Include="Resources\sessionManager16.png" />
+    <None Include="Resources\seekerSession16.png" />
+    <None Include="Resources\seekerSessionsSave16.png" />
+    <None Include="Resources\seekerSessions16.png" />
+    <None Include="Resources\inputData.png" />
+    <None Include="Resources\062.png" />
+    <None Include="Resources\ouIcon.png" />
+    <None Include="Resources\groupMembertIcon16.png" />
+    <None Include="Resources\0431.png" />
+    <None Include="Resources\04_white1.gif" />
+    <None Include="Resources\03_white1.gif" />
+    <None Include="Resources\16_red_pbar1.gif" />
+    <None Include="Resources\16_grey_pbar1.gif" />
+    <None Include="Resources\smallPbarYellow.gif" />
+    <None Include="Resources\seekFnet24.png" />
+    <None Include="Resources\seekComputer24.png" />
+    <None Include="Resources\seekUser24.png" />
+    <None Include="Resources\16_yellow_pbar.gif" />
+    <None Include="Resources\16_red_pbar.gif" />
+    <None Include="Resources\16_grey_pbar.gif" />
+    <None Include="Resources\deleteItem24.png" />
+    <None Include="Resources\copy24.png" />
+    <None Include="Resources\logoutOuter32.png" />
+    <None Include="Resources\open24.png" />
+    <None Include="Resources\exit24.png" />
+    <None Include="Resources\logout24.png" />
+    <None Include="Resources\newSeek24.png" />
+    <None Include="Resources\043.png" />
+    <None Include="Resources\004.png" />
+    <None Include="Resources\15_white.gif" />
+    <None Include="Resources\07.gif" />
+    <None Include="Resources\06.gif" />
+    <None Include="Resources\14_white.gif" />
+    <None Include="Resources\04_white.gif" />
+    <None Include="Resources\03_white.gif" />
+    <None Include="Resources\nightwatch.jpg" />
+    <None Include="Resources\sika.png" />
+    <None Include="Resources\pBarGreen.gif" />
+    <None Include="Resources\usrPhoto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
