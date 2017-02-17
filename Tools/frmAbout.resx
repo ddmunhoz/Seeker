@@ -124,8 +124,6 @@ your screen to a session,that you can go back later
 and share with your workmates!
 NEW* Session manager GUI, from here you can delete,
 import and export your sessions.
-NEW* Now you can verify on FURNAS Net card if user
-is manager of a division and what division is this.
 
 Fixed a bug on login screen that would prevent user to
 login if a credential from logins list wasn't selected.
@@ -156,7 +154,6 @@ Thousands of Performance BUGS Fixed!
 NEW* LAPS Interface
 NEW* Reports Interface
 
-
 # Seeker v2.6 --- - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Finally!!! Fixed bugs on main search thread, 
 seeker is faster now! (or at least he tries)
@@ -169,10 +166,6 @@ Active Directory MNG in 100% of cases
 
 NEW* Seeker can now work on Framework 4.0 and above!
 
-# Seeker v2.5.1- - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-Fixed a Bug that prevent user machine
-ownership to be showed
-
 # Seeker v2.5- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Fixed Account lockout search NEW* Now seeker can 
 show you when accounts where unlocked also.
@@ -182,11 +175,6 @@ General BugFixes
 # Seeker v2.4- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 NEW* Now you can choose the number of days to look 
 for locked accounts events under User seek card.
-
-NEW* Data displayed under Category USER relates only 
-to information queried from Active Directory.Other user 
-information like location, Phone and etc now are found under
-category FurnasNet.
 
 NEW* Create User form 
 FIX* Entering ()*@ especial srings in search field could 
@@ -218,10 +206,6 @@ User Location info
 User division info
 Computer creation date
 Computer changed date
-NEW* Computer Logs (Logon Agent)
-NEW* Computer Logs (Legacy LogsMigra)
-NEW* User Logs (Logon Agent)
-NEW* User Logs (Legacy LogsMigra
 
 # Seeker 1.5- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 User Account Details
@@ -231,8 +215,7 @@ Computer Account Details
 
 # Seeker 1.0 - (Initial Release)  - - - - - - - - - - - - - - - - -
 Seek Users
-Seek Computers
-FurnastNet data link</value>
+Seek Computers</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">

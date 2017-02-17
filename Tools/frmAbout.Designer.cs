@@ -73,7 +73,6 @@
             this.label2.Size = new System.Drawing.Size(76, 13);
             this.label2.TabIndex = 2;
             this.label2.Text = "Diego Munhóz";
-         
             // 
             // richTextBox1
             // 
@@ -164,7 +163,7 @@
             this.Name = "frmAbout";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "About Seeker";    
+            this.Text = "About Seeker";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.pnlAbout.ResumeLayout(false);
             this.pnlAbout.PerformLayout();
